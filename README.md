@@ -1,3 +1,3 @@
 # leetcode-solutions
 
-![](https://github.com/actions/hello-world/workflows/Rust/badge.svg)
+![](https://github.com/Axighi/leetcode-solutions/workflows/Rust/badge.svg)

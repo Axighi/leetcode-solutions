@@ -134,7 +134,7 @@ pub fn roman_to_int(s: String) -> i32 {
 }
 
 #[test]
-fn test() {
+fn hooyah() {
     assert_eq!(roman_to_int("III".to_string()), 3);
     assert_eq!(roman_to_int("IV".to_string()), 4);
     assert_eq!(roman_to_int("IX".to_string()), 9);

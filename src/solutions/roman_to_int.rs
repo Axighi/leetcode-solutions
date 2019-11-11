@@ -61,6 +61,7 @@
  */
 use std::collections::HashMap;
 
+#[allow(dead_code)]
 pub fn roman_to_int(s: String) -> i32 {
     let mut roman_values = HashMap::new();
     roman_values.insert("I".as_bytes()[0], 1);

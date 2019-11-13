@@ -1,2 +1,3 @@
+pub mod length_of_last_word;
 pub mod max_sub_array;
 pub mod roman_to_int;

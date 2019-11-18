@@ -1,4 +1,5 @@
 pub mod add_binary;
+pub mod climb_stairs;
 pub mod length_of_last_word;
 pub mod max_sub_array;
 pub mod plus_one;

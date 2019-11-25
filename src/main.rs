@@ -1,7 +1,5 @@
 mod solutions;
 
-// use crate::solutions::generate::*;
-
 fn main() {
-  // println!("{:?}", Solution::generate(5));
+  println!("    Azriel is soooooooooooo cute!! and cool!!!!! and handsome!!!!");
 }

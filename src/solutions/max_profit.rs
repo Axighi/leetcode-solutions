@@ -3,26 +3,17 @@ pub struct Solution {}
 impl Solution {
   #[allow(dead_code)]
   pub fn max_profit(prices: Vec<i32>) -> i32 {
+    let mut min_price = std::i32::MAX;
     let mut profit: i32 = 0;
-    if prices.len() == 0 || prices.len() == 1 {
-      return 0i32;
-    }
 
-    let mut buy_index: usize = 0;
-    let mut sell_index: usize = 0;
-
-    while buy_index <= prices.len() - 2 {
-      sell_index = buy_index + 1;
-      while sell_index <= prices.len() - 1 {
-        let temp_profit = prices[sell_index] - prices[buy_index];
-        if temp_profit > profit {
-          profit = temp_profit
-        }
-        sell_index += 1;
+    for p in prices {
+      if p < min_price {
+        min_price = p;
+      } else if p - min_price > profit {
+        profit = p - min_price;
       }
-
-      buy_index += 1;
     }
+
     profit
   }
 }

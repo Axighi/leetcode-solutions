@@ -4,6 +4,7 @@ pub mod delete_duplicates;
 pub mod generate;
 pub mod get_row;
 pub mod is_same_tree;
+pub mod is_symmetric;
 pub mod length_of_last_word;
 pub mod max_profit;
 pub mod max_sub_array;

@@ -37,8 +37,8 @@ impl Solution {
         node.unwrap().borrow().right.as_ref(),
       ) {
         (None, None) => 1,
-        (None, Some(right)) => f(Some(right)),
-        (Some(left), None) => f(Some(left)),
+        (None, Some(right)) => f(Some(right)) + 1,
+        (Some(left), None) => f(Some(left)) + 1,
         (Some(left), Some(right)) => cmp::max(f(Some(left)), f(Some(right))) + 1,
       }
     }

@@ -1,12 +1,14 @@
 pub mod add_binary;
 pub mod add_digits;
 pub mod climb_stairs;
+pub mod convert_to_title;
 pub mod delete_duplicates;
 pub mod generate;
 pub mod get_row;
 pub mod is_same_tree;
 pub mod is_symmetric;
 pub mod length_of_last_word;
+pub mod level_order_bottom;
 pub mod majority_element;
 pub mod max_depth;
 pub mod max_profit;

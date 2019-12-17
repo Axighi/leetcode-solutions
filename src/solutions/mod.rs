@@ -1,6 +1,7 @@
 pub mod add_binary;
 pub mod add_digits;
 pub mod climb_stairs;
+pub mod contains_duplicate;
 pub mod convert_to_title;
 pub mod delete_duplicates;
 pub mod generate;

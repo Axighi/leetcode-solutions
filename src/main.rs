@@ -4,5 +4,4 @@ mod solutions;
 
 fn main() {
   // println!("{}", Solution::convert_to_title(701));
-  println!("{}", 'A' as u8);
 }

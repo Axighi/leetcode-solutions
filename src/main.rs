@@ -1,7 +1,7 @@
 mod solutions;
 
-// use solutions::convert_to_title::Solution;
+use solutions::is_power_of_two::Solution;
 
 fn main() {
-  // println!("{}", Solution::convert_to_title(701));
+  println!("{}", Solution::is_power_of_two(3));
 }

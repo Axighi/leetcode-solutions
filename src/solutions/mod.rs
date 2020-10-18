@@ -17,6 +17,7 @@ pub mod max_profit;
 pub mod max_sub_array;
 pub mod merge;
 // pub mod my_stack;
+pub mod find_duplicates;
 pub mod plus_one;
 pub mod roman_to_int;
 pub mod single_number;
